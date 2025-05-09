@@ -8,7 +8,7 @@ const ProductRouter = require("./routes/product");
 const UserRouter = require("./routes/user");
 
 //middleware start here
-app.use(cors({ origin: "http://192.168.156.128:5173", credentials: true }));
+app.use(cors({ origin: "https://first-project-b7540.web.app", credentials: true }));
 app.use(express.json());
 app.use(cookieParser());
 app.use(express.urlencoded({ extended: true }));
